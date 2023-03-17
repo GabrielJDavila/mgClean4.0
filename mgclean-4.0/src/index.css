@@ -1,0 +1,100 @@
+/* main styles */
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+/* header and nav styles */
+.nav-div {
+  position: relative;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  background: rgb(64, 135, 218);
+  width: 100%;
+}
+
+.title-div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 1rem;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.title-div > h1 {
+  margin-bottom: 0;
+}
+
+.hamburger {
+  width: 25px;
+  height: 20px;
+  margin-left: auto;
+  padding: 1rem;
+}
+
+.hamburger:hover {
+  color: white;
+  transition: ease all .5s;
+
+}
+
+.hamburger:active {
+  transform: rotate(360deg);
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  background: rgb(87, 89, 90);
+  color: white;
+  padding: 0.25rem 1rem;
+  opacity: 1;
+  transition: ease all .25s;
+}
+
+nav>a {
+  text-align: center;
+  margin: 0 auto;
+}
+
+a:hover {
+  color: rgb(59, 183, 231);
+  transition: ease all .5s;
+}
+
+/* main body and sections styles */
+
+main {
+  margin: 0 1rem;
+}
+
+.section {
+  background-color: red;
+}
+
+.hide {
+  visibility: hidden;
+  opacity: 0;
+  height: 0px;
+  font-size: 1px;
+  transition: ease all .1s;
+}
