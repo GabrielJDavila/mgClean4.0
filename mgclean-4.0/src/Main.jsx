@@ -23,8 +23,8 @@ export default function Main() {
                 <h2 className="section-title">Hero</h2>
                 <div>
                     <h2>{images[currentIndex]}</h2>
-                    <button onClick={nextImg}>Next</button>
                     <button onClick={prevImg}>Prev</button>
+                    <button onClick={nextImg}>Next</button>
                 </div>
             </section>
             <section className="section services">
